@@ -1,1 +1,3 @@
-FROM 172.18.0.120:31104/middleware/nginx:1.14
+FROM nginx:latest
+RUN apt-get update
+RUN apt-get install -y vim
